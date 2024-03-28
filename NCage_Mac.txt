@@ -1,12 +1,9 @@
-REM Delay for system to respond
-DELAY 2000
-
-REM Open Chrome 
-Command Space
-DELAY 500
-STRING chrome
-ENTER
-DELAY 500
+REM Version 1.0 (Flipper Ducky)
+REM Target: macOS
+DELAY 3000
+F4
+DELAY 2500
+STRING Chrome
 
 REM Go to the Chrome Web Store
 STRING chrome://extensions/
