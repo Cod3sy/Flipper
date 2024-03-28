@@ -1,0 +1,42 @@
+REM Delay for system to respond
+DELAY 2000
+
+REM Open Chrome (Assuming it's in the taskbar)
+WINDOWS r
+DELAY 500
+STRING chrome
+ENTER
+DELAY 500
+
+REM Go to the Chrome Web Store
+STRING chrome://extensions/
+ENTER
+DELAY 2000
+
+REM Navigate to the Web Store
+TAB
+TAB
+TAB
+TAB
+ENTER
+DELAY 2000
+
+REM Search for the extension
+STRING ncage
+DELAY 1000
+TAB
+ENTER
+DELAY 2000
+
+REM Click on the extension link
+TAB
+TAB
+ENTER
+DELAY 2000
+
+REM Add the extension
+TAB
+TAB
+TAB
+TAB
+ENTER
