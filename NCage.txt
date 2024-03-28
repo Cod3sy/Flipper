@@ -1,7 +1,7 @@
 REM Delay for system to respond
 DELAY 2000
 
-REM Open Chrome (Assuming it's in the taskbar)
+REM Open Chrome 
 WINDOWS r
 DELAY 500
 STRING chrome
@@ -40,3 +40,7 @@ TAB
 TAB
 TAB
 ENTER
+
+REM Kill Chrome Windows
+ALT F4
+ALT F4
