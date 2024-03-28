@@ -3,7 +3,10 @@ REM Target: macOS
 DELAY 3000
 F4
 DELAY 2500
-STRING Chrome
+STRING chrome
+DELAY 2500
+ENTER
+DELAY 500
 
 REM Go to the Chrome Web Store
 STRING chrome://extensions/
